@@ -56,7 +56,7 @@ public class SampleDAO extends EgovAbstractMapper {
 	public String namespace="egovframework.sqlmap.example.mappers.noticemapper";
 	
 	public String selectOne()throws Exception{
-		return this.getSqlSession().selectOne(namespace+"selectOne");
+		return this.getSqlSession().selectOne(namespace+".selectOne");
 	}
 	
 	
