@@ -60,7 +60,7 @@ public class EgovSampleController {
 
 	/** EgovSampleService */
 	@Resource(name = "sampleService")
-	private EgovSampleServiceImpl sampleService;
+	private EgovSampleService sampleService;
 
 	/** EgovPropertyService */
 	@Resource(name = "propertiesService")
