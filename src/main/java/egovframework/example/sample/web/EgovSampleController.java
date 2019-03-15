@@ -82,7 +82,7 @@ public class EgovSampleController {
 		String title=sampleService.selectOne();
 		ModelAndView view=new ModelAndView();
 		view.addObject(title);
-		view.setViewName("");
+		view.setViewName("sample/egovSampleList");
 
 		return view;
 	}
