@@ -82,6 +82,7 @@ public interface EgovSampleService {
 	 * @exception
 	 */
 	int selectSampleListTotCnt(SampleDefaultVO searchVO);
+	
 	public String selectOne()throws Exception;
 
 }

@@ -47,16 +47,11 @@ import org.springframework.stereotype.Repository;
 
 @Repository("sampleDAO")
 public class SampleDAO extends EgovAbstractMapper {
-	@Override
-	public SqlSession getSqlSession() {
-		// TODO Auto-generated method stub
-		return super.getSqlSession();
-	}
 	
 	public String namespace="egovframework.sqlmap.example.mappers.noticemapper";
 	
 	public String selectOne()throws Exception{
-		return this.getSqlSession().selectOne(namespace+".selectOne");
+		return getSqlSession().selectOne(namespace+".selectOne");
 	}
 	
 	
