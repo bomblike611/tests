@@ -3,7 +3,7 @@
 <mapper namespace="egovframework.sqlmap.example.mappers.noticemapper">
 
 
-<select id="selectOne" resultType="String">
+<select id="selectOne" resultType="String" >
 select title from notice where num=1
 </select>
 

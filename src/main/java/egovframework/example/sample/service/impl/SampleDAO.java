@@ -48,7 +48,7 @@ import org.springframework.stereotype.Repository;
 @Repository("sampleDAO")
 public class SampleDAO extends EgovAbstractMapper {
 	
-	public String namespace="egovframework.sqlmap.example.mappers.noticemapper";
+	public final String namespace="egovframework.sqlmap.example.mappers.noticemapper";
 	
 	public String selectOne()throws Exception{
 		return getSqlSession().selectOne(namespace+".selectOne");

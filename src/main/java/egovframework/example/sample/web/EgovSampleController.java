@@ -81,7 +81,6 @@ public class EgovSampleController {
 	public ModelAndView selectSampleList() throws Exception {
 		String title=sampleService.selectOne();
 		ModelAndView view=new ModelAndView();
-		System.out.println(title);
 		view.addObject("title", title);
 		view.setViewName("sample/egovSampleList");
 
